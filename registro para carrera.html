@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro para carrera</title>
+</head>
+
+<body>
+
+    <h1>Race registration!</h2>
+
+        <form>
+
+            <div>
+                <p>
+                    <label for="firstname">First name</label>
+                    <input type="text" placeholder="first name" id="firstname" required>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="lastname">Last name</label>
+                    <input type="text" placeholder="last name" id="lastname" required>
+                </p>
+            </div>
+
+            <div>
+                <p>Select a race</p>
+            </div>
+
+            <div>
+                <div>
+                    <input type=radio name="race" id=funrun5k value="funrun5k" required>
+                    <label for="funrun5k">Fun run 5K</labvl>
+                </div>
+
+                <div>
+                    <input type=radio name="race" id=funrun10k value="funrun10k" required>
+                    <label for="funrun10k">Fun run 10K</labvl>
+                </div>
+
+                <div>
+                    <input type=radio name="race" id=funrun15k value="funrun15k" required>
+                    <label for="funrun15k">Fun run 15K</labvl>
+                </div>
+
+                <div>
+                    <p>
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" id="email" placeholder="correo" required>
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="password" required>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <label for="groupage">Age group: </label>
+                <select id="groupage" required>
+                    <option value="kids">kids</option>
+                    <option value="younglings">youngling</option>
+                    <option value="grownups">grownups</option>
+                    <option value="oldbois">oldbois</option>
+                </select>
+            </div>
+
+            <div>
+                <p>
+                    <button>Register</button>
+                </p>
+            </div>
+        </form>
+
+
+</body>
+
+</html>

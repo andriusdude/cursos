@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <h1>Forms</h1>
+
+    <form action="/tacos">
+
+        <div>
+            <p>
+                <label for="usuario">Nombre de usuario: </label>
+                <input id="usuario" placeholder="nombre de usuario" type="text" name="usuario">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="password">Contrase&ntilde;a: </label>
+                <input id="password" type="password" placeholder="contrase&ntilde;a" name="password">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="color">Elige un color: </label>
+                <input id="color" type="color" name="color">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="numero">Elige un n&utilde;mero</label>
+                <input id="numero" type="number" name="number">
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <button>Enviar</button>
+            </p>
+        </div>
+
+    </form>
+
+    <br>
+
+    <h1>Buscar</h1>
+
+
+    <h2>Buscar en Google</h2>
+
+    <form action="https://www.google.com/search">
+
+        <div>
+            <p>
+                <input type="text" name="q">
+                <button>Buscar en Google</button>
+            </p>
+        </div>
+    </form>
+
+    <h2>Buscar en YouTube</h2>
+
+    <form action="https://www.youtube.com/results">
+
+        <div>
+            <p>
+                <input type="text" name="search_query">
+                <button>Buscar en YouTube</button>
+            </p>
+        </div>
+    </form>
+
+    <h2>Buscar en Reddit</h2>
+
+    <form action="https://www.reddit.com/search">
+        <div>
+            <p>
+                <input type="text" name="q">
+                <button>Buscar en Reddit</button>
+            </p>
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
