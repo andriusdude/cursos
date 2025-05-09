@@ -1,5 +1,5 @@
 import "./styles.css";
-import RandomPokemon from "../RandomPokemon";
+import RandomPokemon from "./RandomPokemon";
 
 export default function App() {
   return (
