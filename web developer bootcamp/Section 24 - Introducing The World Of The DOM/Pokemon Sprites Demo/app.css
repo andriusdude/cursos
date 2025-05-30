@@ -6,3 +6,9 @@
 .pokemon img {
     display: block;
 }
+
+.pokeTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+}
