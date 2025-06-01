@@ -1,5 +1,17 @@
 const button = document.querySelector('button');
+const h1 = document.querySelector('h1');
 
 button.addEventListener('click', function () {
-    console.log("Clicksio");
+
+    const newColor = makeRandomColor();
+    document.body.style.backgroundColor = newColor;
+    h1.innerText = "My new color is " + newColor;
+    console.log("Clicksio done");
 });
+
+const makeRandomColor = () => {
+    const r = Math.floor(Math.random() * 255);
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
+    return `rgb(${r}, ${g}, ${b})`;
+};
