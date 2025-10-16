@@ -1,3 +1,3 @@
 document.querySelector("button").addEventListener("click", function () {
-    alert("CLICK")
+    alert("B O N K")
 })
